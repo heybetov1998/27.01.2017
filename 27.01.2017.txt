@@ -1,0 +1,61 @@
+===============================
+ Proqramlaşdırma paradiqmaları
+===============================
+Proqramlaşdırma paradiqmalarının bir neçə növləri var: imperativ, məntiqi, funksional, obyektyönümlü. Bunların
+hamısı bizim qoyduğumuz məsələni çözmək üçün yollarıdı. Hamısıynan bu məsələni həll etmək mümkündür yəni ki.
+
+İmperativ paradiqma:
+Bu paradiqmada hesablama ardıcıllıqla gedir. Yəni ki, bir proses qurtarmadan digərinə keçmir. Bu zaman
+dəyişənlərin qiyməti dəyişə bilir. Məşhur proqramlaşdırma dillərinin çoxu imperativdi. Bunun səbəbi isə
+imperativ paradiqmdə yazılan kod daha rahat oxunur. Maşın da kodu eyni şəkildə oxuyur. Bu baxımnan əlverişlidi.
+Hər şeyin mənfi cəhəti olduğu kimi, bunun da mənfi cəhətləri var. Yazılışı mürəkkəb və başa düşülən olmaya
+bilir. müəyyən əks təsirləri var ki. debuggingi daha da çətinləşdirir.
+
+Məntiqi paradiqma:
+Bu paradiqma problemin həllini deklarativ yolla həll edir. Bütün verilən məlumatlar əsasında məntiq irəli
+sürür, sonra onları sorğuluyur. Bizə hər hansı bir şeyi istifadə edərkən proqram tərəfindən edilən təkliflər bu
+paradiqmaya aiddi. Google, Apple kimi şirkətdərin süni intellekt asistantları bu məntiqlə işləyir.
+
+Funksional paradiqma:
+Bu paradiqma bütün alt proqramları, funksiya kimi görür. Funksional dillər bu paradiqma əsasında yaradılıb.
+Proqramın gedişatı çoxlu müxtəlif yollarla ola bilir. Mənimsətmə əməliyyatı olmur funksional dillərdə.
+
+Obyektyönümlü paradiqma:
+Hər şeyi bir obyekt kimi görən paradiqmadır. Obyektlər ayrılıqda əməliyyat apara bilirlər. Yazılan kod yenidən
+istifadə oluna bilir classlar vasitəsilə. Hər bir class başqa bir classın mirasıdı. Yəni, özündən əvvəlki
+classın özəlliklərini daşıyır, amma özündə yeni bir özəllik də var.
+
+================================
+ Obyekt yönümlü proqramlaşdırma
+================================
+Obyekt:
+Bu dəyişən, funksiya və s. ola bilər. Obyekt hər hansı bir class-a aid olur.
+
+Class:
+Məlumat tipidir. Bu tipi üzvlər var eliyir.  Bu üzvlər iki yerə bölünür: sahə və metod. Məsələn biz bir pişik
+yaratmalıyıq. Onun üzərində tüklər, ad, gözləri falan  başqa başqa classlardı.
+
+Miras:
+Hər bir class özündən əvvəlkinnən nəsə daşıyır. Amma özündə də hər hansı bir dəyişiklik olur. Onda bu class
+özündən əvvəlkinin mirası adlanır.
+
+Polimorfizm:
+Çoxlu formada görünmə qabiliyyətidi. Proqramlaşdırmada məlumat tipi və classdan asılı olaraq obyektlər üzərində
+proqramın gördüyü prosesin müxtəlifliyini bildirir.
+
+Mücərrədlik:
+Proqramçı hər şeyi gizlədir, amma  obyekt haqqındakı müəyyən məlumatları saxlayır ki, mürəkkəblik azalsın
+məhsuldarlıq artsın. 
+
+Kapsullama:
+Bu hər hansı bir classın içində olan sahənin və ya metodların yalnız həmin class üçün yerinə yetirilə biləcəyini
+təmin eliyir. Kapsullama 3 növə ayrılır: private, public, və protected.
+	Private:
+	Yalnız öz tipinin metodları üçün görünür.
+	
+	Protected:
+	Öz tipinnən əlavə, əlaqədə olduğu tiplər tərəfindən də görünür.
+	
+	Public:
+	Hər yerdə və hər tip tərəfindən görünür.
+
